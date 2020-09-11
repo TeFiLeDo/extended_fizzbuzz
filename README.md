@@ -1,4 +1,4 @@
-# extended_fizzbuzz
+# extended_fizzbuzz ![Build](https://github.com/TeFiLeDo/extended_fizzbuzz/workflows/Build/badge.svg)
 Configurable FizzBuzz library.
 
 ## Installation
@@ -20,3 +20,13 @@ fn main() {
     fizzbuzz(1, 100, &matchers).expect("FizzBuzzing failed");
 }
 ```
+
+## License
+See the [license file](LICENSE) for details.
+
+## Authors
+- Adrian Wannenmacher <tfld@tfld.dev>
+
+## Built with
+- [thiserror](https://crates.io/crates/thiserror)
+- [rand](https://crates.io/crates/rand)
