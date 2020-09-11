@@ -1,14 +1,3 @@
-# extended_fizzbuzz
-Configurable FizzBuzz library.
-
-## Installation
-```toml
-[dependencies]
-extended_fizzbuzz = "1"
-```
-
-## Usage
-```rust
 use extended_fizzbuzz::{fizzbuzz, Matcher};
 
 fn main() {
@@ -19,4 +8,3 @@ fn main() {
 
     fizzbuzz(1, 100, &matchers).expect("FizzBuzzing failed");
 }
-```
